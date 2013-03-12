@@ -20,6 +20,7 @@ a{
 }
 body{
   margin: 0px;
+  background: rgba(175, 175, 175, 0.46);
 }
 
 .layout-container{
@@ -37,8 +38,9 @@ body{
   background-image: url(tile2.jpg);
   background-size: 100px 100px;
   background-repeat: repeat;
-  border: 2px solid rgba(209, 209, 209, 0.98);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.38);
 }
 .layout-header{
   width: 1100px;
@@ -52,8 +54,9 @@ body{
   width: 20%;
   height: 700px;
   float:left;
-  border: 1px inset rgba(175, 171, 171, 0.57);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.38);
   //background: rgb(235, 255, 0);
 }
 
