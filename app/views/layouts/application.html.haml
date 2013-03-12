@@ -9,8 +9,9 @@
   %body
     .layout-container
       .layout-header
-      .layout-nav
-        =render 'layouts/nav'
-      .layout-body
-        = yield
+      .layout-container-mid
+        .layout-nav
+          =render 'layouts/nav'
+        .layout-body
+          = yield
       .layout-footer
