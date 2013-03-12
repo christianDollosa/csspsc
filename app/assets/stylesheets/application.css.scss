@@ -15,6 +15,7 @@
 //link style
 
 a{
+  color: black;
   text-decoration: none;
 }
 body{
@@ -25,7 +26,6 @@ body{
   margin-left: 8%;
   width: 1100px;
   height: 800px;
-  background: rgba(0, 204, 255, 0.05);
 }
 
 .layout-header{
@@ -37,18 +37,24 @@ body{
 }
 
 .layout-nav{
-  margin-top: 10px;
+  //padding-top: 50px;
   width: 200px;
   height: 800px;
   float:left;
-  border-right: 1px inset black;
+  border-right: 1px inset rgba(175, 171, 171, 0.57);
+  //background-image: url('tile2.jpg');
+  //background-repeat: repeat;
+  background: rgb(235, 255, 0);
 }
 
 .layout-body{
   width: 900px;
   height: 800px;
   margin-left: 200px;
-  background: pink;
+  background: rgb(243, 243, 243);
+  //background-image: url('tile2.jpg');
+  //background-repeat: repeat;
+
 }
 .layout-footer{
   width: 1100px;
